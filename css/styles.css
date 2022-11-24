@@ -1,4 +1,4 @@
-.root{
+.root {
     --title-text-color: #212121;
     --accent-color:#2196F3;
     --logo-style-color:#000000;
@@ -8,7 +8,7 @@
 
 
 
-.body{
+.body {
     color: #212121;
     background-color:#F5F5F5;
     font-family: Roboto, sans-serif;
@@ -21,15 +21,14 @@
 /* акцент #2196F3 */
 /* цвет фона #2F303A */
 
-ul{
+ul {
     list-style: none;
 }
 
 /* header-nav*/
 
-.logo{
+.logo {
     color:var(--logo-style-color);
-    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -38,14 +37,14 @@ ul{
     text-decoration: none;
 }
 
-.web{
+.web {
     color:#2196F3;
 }
-.studio{
+.studio {
     color:#000000;
 }
 
-.logo-style{
+.logo-style {
     color:var(--logo-style-color);
     font-family:Raleway, sans-serif;
     font-style: normal;
@@ -57,96 +56,97 @@ ul{
 
 /* Site nav */
 
-.site-nav{
-    font-family: Roboto, sans-serif;
+.site-nav {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
 
-
-.site-nav.link-studio:hover{
-    color: var(--accent-color);
-}
-
-.site-nav.link-studio:focus{
-    color: var(--accent-color);
-}
-
-.link-studio{
+.link-studio {
     color: #2196F3;
     text-decoration: none;
 }
 
-.link-portfolio{
+.link-studio:hover,
+.link-studio:focus {
+    color:#2196F3;
+}
+
+
+.link-portfolio {
     color: #212121;
     text-decoration: none;
 }
 
 /* Contacts-nav */
 
-.contacts-nav{
-    font-family: Roboto, sans-serif;
+.contacts-nav {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
 
-.link-email{
-    font-family: Roboto, sans-serif;
+.link-email {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     color: #2196F3;
     text-decoration: none;
 }
 
-.link-tel{
-    font-family: Roboto, sans-serif;
+.link-email:hover,
+.link-email:focus {
+   background-color:#2196F3;
+}
+
+.link-tel {
     font-style: normal;
     color: #757575;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
 
+.link-tel:hover,
+.link-tel:focus {
+    color: #757575;
+}
+
 /* Service */
 
-.service{
+.service {
     background-color: #2F303A;
 }
 
-.headline{
-    font-family: Roboto, sans-serif;
+.headline {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1,36;
     text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     text-transform: uppercase;
 }
 
-.button-active{
-    font-family: Roboto, sans-serif;
+.button-active {
     color:#FFFFFF;
     background-color:#2196F3;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1,87;
     display: flex;
     align-items: center;
     text-align: center;
@@ -155,36 +155,39 @@ ul{
     cursor: pointer;
 }
 
+.button-active:hover,
+.button-active:focus {
+    color:#FFFFFF;
+    background-color:#2196F3;
+}
+
 /* advantage-list */
 
-.title{
-    font-family: Roboto, sans-serif;
+.title {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     color:  #212121;
 }
 
-.name{
-    font-family: Roboto, sans-serif;
+.name {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
 /* responsibilities */
 
-.topic{
-    font-family: Roboto, sans-serif;
+.topic {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,16;
     letter-spacing: 0.03em;
     color: #212121;
 }
@@ -192,118 +195,126 @@ ul{
 
 /* team */
 
-.heading{
-    font-family: Roboto, sans-serif;
+.heading {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,16;
     letter-spacing: 0.03em;
     color: #212121;
 }
 
-.employee{
-    font-family: Roboto, sans-serif;
+.employee {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,18;
     letter-spacing: 0.03em;
     color: #212121;
 }
 
-.work-position{
-    font-family: Roboto, sans-serif;
+.work-position {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,18;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
 /* page-footer */
 
-.page-footer{
+.page-footer {
     background-color: #2F303A;
 }
 
-.logo{
+.logo {
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,19;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
 
-.web{
+.web {
     color: #2196F3;
 }
 
-.studio-footer{
+.studio-footer {
     color: #FFFFFF;
 }
 
-.adress{
-    font-family: Roboto, sans-serif;
+.adress {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
 
-.link-adress-footer{
-    font-family: Roboto, sans-serif;
+.link-adress-footer {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7;
     text-decoration: none;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
-.link-email-footer{
-    font-family: Roboto, sans-serif;
+.link-adress-footer:hover,
+.link-adress-footer:focus {
+    color: #FFFFFF;
+}
+
+.link-email-footer {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 }
 
+.link-email-footer:hover,
+.link-email-footer:focus {
+    color:rgba(255, 255, 255, 0.6);
+}
 
 
 
-.link-tel-footer{
-    font-family: Roboto, sans-serif;
+
+.link-tel-footer {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);   
+}
+
+.link-tel-footer:hover,
+.link-tel-footer:focus {
+    color:rgba(255, 255, 255, 0.6);   
 }
 
 
 
 /* Portfolio */
 
-.root{
+.root {
     --title-text-color: #212121;
     --accent-color:#2196F3;
     --logo-style-color:#000000;
     --accent-color-logo:#FFFFFF;
 }
 
-.body{
+.body {
     color: #212121;
    background-color:#F5F5F5;
     font-family: Roboto, sans-serif;
@@ -317,13 +328,13 @@ ul{
 /* акцент #2196F3 */
 /* цвет фона #2F303A */
 
-ul{
+ul {
     list-style: none;
 }
 
 /* header-nav*/
 
-.logo{
+.logo {
     color:var(--logo-style-color);
     font-family: Raleway, sans-serif;
     font-style: normal;
@@ -334,14 +345,14 @@ ul{
     text-decoration: none;
 }
 
-.web{
+.web {
     color:#2196F3;
 }
-.studio{
+.studio {
     color:#000000;
 }
 
-.logo-style{
+.logo-style {
     color:var(--logo-style-color);
     font-family:Raleway, sans-serif;
     font-style: normal;
@@ -353,110 +364,134 @@ ul{
 
 /* Site nav */
 
-.site-nav{
-    font-family: Roboto, sans-serif;
+.site-nav {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
 
 .site-nav.link-portf:hover,
-.site-nav-link-portf:focus{
-    color: var(--accent-color);
+.site-nav-link-portf:focus {
+    color:#2196F3;
 }
-
-.link-stud{
+ 
+.link-stud {
     color:#212121;
     text-decoration: none;
 }
 
-.link-portf{
+.link-stud:hover,
+.link-stud:focus {
+    color:#212121;
+}
+
+.link-portf {
     color: #2196F3;
     text-decoration: none;
 }
+
+.link-portf:hover,
+.link-portf:focus {
+    color: #2196F3;
+}
+
 
 /* Contacts-nav */
 
-.contacts-nav{
-    font-family: Roboto, sans-serif;
+.contacts-nav {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
 
-.link-email{
-    font-family: Roboto, sans-serif;
+.link-email {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     color: #2196F3;
     text-decoration: none;
 }
 
-.link-tel{
-    font-family: Roboto, sans-serif;
+.link-email:hover,
+.link-email:focus {
+    color: #2196F3;
+}
+
+.link-tel {
     color: #757575;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
 
+.link-tel:hover,
+.link-tel:focus {
+    color: #757575;
+}
+
 /* button navigation */
-.button-primary{
-    font-family: Roboto, sans-serif;
+.button-primary {
     font-style: normal;
     color: #FFFFFF;
     background-color: #2196F3;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,62;
     border-radius: 4px;
     letter-spacing: 0.03em;
     cursor: pointer;
     text-align: center;
 }
 
-.button-secondary{
-    font-family: Roboto, sans-serif;
+.button-nav.button-primary:hover,
+.button-nav.button-primary:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.button-secondary {
     font-style: normal;
     background-color: #F5F4FA;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,62;
     border-radius: 4px;
     letter-spacing: 0.03em;
     cursor: pointer;
     text-align: center;
 }
 
+.button-nav.button-secondary:hover,
+.button-nav.button-secondary:focus {
+    background-color: #F5F4FA;
+}
+
 /* portfolio-nav */
-.section-title{
-    font-family: Roboto, sans-serif;
+.section-title {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
 }
 
-.section-description{
-    font-family: Roboto, sans-serif;
+.section-description {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1,87;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -464,68 +499,79 @@ ul{
 
 /* page-footer */
 
-.page-footer{
+.page-footer {
     background-color: #2F303A;
 }
 
-.logo{
+.logo {
     font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,19;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
 
-.web{
+.web {
     color: #2196F3;
 }
 
-.studio-footer{
+.studio-footer {
     color: #FFFFFF;
 }
 
-.adress{
-    font-family: Roboto, sans-serif;
+.adress {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,71;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
 
-.link-adress-footer{
-    font-family: Roboto, sans-serif;
+.link-adress-footer {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,71;
     text-decoration: none;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 
 }
 
-.link-email-footer{
-    font-family: Roboto, sans-serif;
+.link-adress-footer:hover,
+.link-adress-footer:focus {
+    color: #FFFFFF;
+}
+
+.link-email-footer {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,71;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.link-tel-footer{
-    font-family: Roboto, sans-serif;
+.link-email-footer:hover,
+.link-email-footer:focus {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.link-tel-footer {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,71;
     letter-spacing: 0.03em;
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.link-tel-footer:hover,
+.link-tel-footer:focus {
     color: rgba(255, 255, 255, 0.6);
 }
