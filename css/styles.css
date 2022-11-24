@@ -8,12 +8,13 @@
 
 
 
-.body {
+body {
     color: #212121;
-    background-color:#F5F5F5;
+    background-color:#FFFFFF;
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
+
 /* цвет основного текста #212121 */
 /* вторичный цвет текста #757575 */
 /* вторичный цвет текста rgba(255, 255, 255, 0.6); */
@@ -66,6 +67,11 @@ ul {
 }
 
 .link-studio {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;    
     color: #2196F3;
     text-decoration: none;
 }
@@ -77,6 +83,11 @@ ul {
 
 
 .link-portfolio {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
     color: #212121;
     text-decoration: none;
 }
@@ -314,9 +325,9 @@ ul {
     --accent-color-logo:#FFFFFF;
 }
 
-.body {
+body {
     color: #212121;
-   background-color:#F5F5F5;
+    background-color:#FFFFFF;
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
@@ -379,6 +390,11 @@ ul {
 }
  
 .link-stud {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14px;
+    letter-spacing: 0.02em;
     color:#212121;
     text-decoration: none;
 }
@@ -389,6 +405,11 @@ ul {
 }
 
 .link-portf {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color: #2196F3;
     text-decoration: none;
 }
@@ -462,7 +483,8 @@ ul {
 
 .button-secondary {
     font-style: normal;
-    background-color: #F5F4FA;
+    color:#FFFFFF;
+    background-color:#2196F3;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,62;
@@ -474,8 +496,10 @@ ul {
 
 .button-nav.button-secondary:hover,
 .button-nav.button-secondary:focus {
-    background-color: #F5F4FA;
+    color: #FFFFFF;
+    background-color: #2196F3;
 }
+
 
 /* portfolio-nav */
 .section-title {
