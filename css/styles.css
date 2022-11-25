@@ -6,8 +6,6 @@
 }
 
 
-
-
 body {
     color: #212121;
     background-color:#FFFFFF;
@@ -92,6 +90,26 @@ ul {
     text-decoration: none;
 }
 
+.link-portfolio:hover,
+.link-portfolio:focus {
+    color:#2196F3;
+}
+
+.link-contacts {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.link-contacts:hover,
+.link-contacts:focus {
+    color:#2196F3;
+}
+
 /* Contacts-nav */
 
 .contacts-nav {
@@ -147,8 +165,8 @@ ul {
 }
 
 .button-active {
-    color:#FFFFFF;
-    background-color:#188CE8;
+    color:#212121;
+    background-color:#F5F4FA;
     font-family: inherit;
     font-style: normal;
     font-weight: 700;
@@ -375,6 +393,11 @@ ul {
     text-decoration: none;
 }
 
+.link-stud:hover,
+.link-stud:focus {
+    color: #2196F3;
+}
+
 .link-portf {
     font-style: normal;
     font-weight: 500;
@@ -390,6 +413,20 @@ ul {
     color: #2196F3;
 }
 
+.link-contacts {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.link-contacts:hover,
+.link-contacts:focus {
+    color:#2196F3;
+}
 
 /* Contacts-nav */
 
@@ -465,6 +502,11 @@ ul {
     border: none;
 }
 
+.button-secondary:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
 /* portfolio-nav */
 .section-title {
     font-style: normal;
@@ -531,7 +573,7 @@ ul {
 
 .link-adress-footer:hover,
 .link-adress-footer:focus {
-    color: #FFFFFF;
+    color: #2196F3;
 }
 
 .link-email-footer {
@@ -544,7 +586,8 @@ ul {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.link-email-footer:hover {
+.link-email-footer:hover,
+.link-email-footer:focus {
     color: #2196F3;
 }
 
@@ -558,6 +601,7 @@ ul {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.link-tel-footer:hover {
+.link-tel-footer:hover,
+.link-tel-footer:focus {
     color:#2196F3;
 }
