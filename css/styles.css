@@ -109,13 +109,12 @@ ul {
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
-    color: #2196F3;
     text-decoration: none;
+    color: #757575;
 }
 
-.link-email:hover,
-.link-email:focus {
-   color:#2196F3;
+.link-email:hover {
+    color: #2196F3;
 }
 
 .link-tel {
@@ -129,10 +128,6 @@ ul {
     text-decoration: none;
 }
 
-.link-tel:hover,
-.link-tel:focus {
-    color: #757575;
-}
 
 /* Service */
 
@@ -153,7 +148,8 @@ ul {
 
 .button-active {
     color:#FFFFFF;
-    background-color:#2196F3;
+    background-color:#188CE8;
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -164,12 +160,13 @@ ul {
     letter-spacing: 0.06em;
     border-radius: 4px;
     cursor: pointer;
+    border: none;
 }
 
 .button-active:hover,
 .button-active:focus {
     color:#FFFFFF;
-    background-color:#2196F3;
+    background-color:#188CE8;
 }
 
 /* advantage-list */
@@ -206,6 +203,9 @@ ul {
 
 /* team */
 
+.team {
+    background-color: #F5F4FA;
+}
 .heading {
     font-style: normal;
     font-weight: 700;
@@ -276,11 +276,6 @@ ul {
     color: #FFFFFF;
 }
 
-.link-adress-footer:hover,
-.link-adress-footer:focus {
-    color: #FFFFFF;
-}
-
 .link-email-footer {
     font-style: normal;
     font-weight: 400;
@@ -291,14 +286,6 @@ ul {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.link-email-footer:hover,
-.link-email-footer:focus {
-    color:rgba(255, 255, 255, 0.6);
-}
-
-
-
-
 .link-tel-footer {
     font-style: normal;
     font-weight: 400;
@@ -308,12 +295,6 @@ ul {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);   
 }
-
-.link-tel-footer:hover,
-.link-tel-footer:focus {
-    color:rgba(255, 255, 255, 0.6);   
-}
-
 
 
 /* Portfolio */
@@ -365,7 +346,7 @@ ul {
 
 .logo-style {
     color:var(--logo-style-color);
-    font-family:Raleway, sans-serif;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -383,11 +364,6 @@ ul {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-
-.site-nav.link-portf:hover,
-.site-nav-link-portf:focus {
-    color:#2196F3;
-}
  
 .link-stud {
     font-style: normal;
@@ -397,11 +373,6 @@ ul {
     letter-spacing: 0.02em;
     color:#212121;
     text-decoration: none;
-}
-
-.link-stud:hover,
-.link-stud:focus {
-    color:#212121;
 }
 
 .link-portf {
@@ -437,12 +408,11 @@ ul {
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color:#757575;
     text-decoration: none;
 }
 
-.link-email:hover,
-.link-email:focus {
+.link-email:hover {
     color: #2196F3;
 }
 
@@ -456,16 +426,16 @@ ul {
     text-decoration: none;
 }
 
-.link-tel:hover,
-.link-tel:focus {
-    color: #757575;
+.link-tel:hover {
+    color:#2196F3;
 }
 
 /* button navigation */
+
 .button-primary {
-    font-style: normal;
-    color: #FFFFFF;
-    background-color: #2196F3;
+    font-family: inherit;
+    color:#212121;
+    background-color:#F5F4FA;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,62;
@@ -473,18 +443,18 @@ ul {
     letter-spacing: 0.03em;
     cursor: pointer;
     text-align: center;
+    border: none;
 }
 
-.button-nav.button-primary:hover,
-.button-nav.button-primary:focus {
+.button-primary:hover {
     color: #FFFFFF;
     background-color: #2196F3;
 }
 
 .button-secondary {
-    font-style: normal;
-    color:#FFFFFF;
-    background-color:#2196F3;
+    font-family: inherit;
+    color:#212121;
+    background-color:#F5F4FA;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,62;
@@ -492,14 +462,8 @@ ul {
     letter-spacing: 0.03em;
     cursor: pointer;
     text-align: center;
+    border: none;
 }
-
-.button-nav.button-secondary:hover,
-.button-nav.button-secondary:focus {
-    color: #FFFFFF;
-    background-color: #2196F3;
-}
-
 
 /* portfolio-nav */
 .section-title {
@@ -580,9 +544,8 @@ ul {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.link-email-footer:hover,
-.link-email-footer:focus {
-    color: rgba(255, 255, 255, 0.6);
+.link-email-footer:hover {
+    color: #2196F3;
 }
 
 .link-tel-footer {
@@ -595,7 +558,6 @@ ul {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.link-tel-footer:hover,
-.link-tel-footer:focus {
-    color: rgba(255, 255, 255, 0.6);
+.link-tel-footer:hover {
+    color:#2196F3;
 }
